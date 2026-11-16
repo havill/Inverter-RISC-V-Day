@@ -1,0 +1,6 @@
+** sch_path: /home/ishi-kai/inverter/inv_dut_108.sch
+.subckt inv_dut_108 VDD VSS A Q
+*.PININFO VDD:B VSS:B A:I Q:O
+M1 Q A VDD VDD pfet_05v0 L=1.20u W=5.40u nf=1
+M2 Q A VSS VSS nfet_05v0 L=1.20u W=1.80u nf=1
+.ends
